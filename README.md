@@ -1,8 +1,12 @@
-# Intership UASC
-_Pada divisi Low Voltage diberikan tugas untuk membuat beberapa rangkaian IoT_
+# Ultrasonic Sensors with Oled display
+_Sebuah rangkaian yang berfungsi untuk menghitung jarak benda dengan komponen menggunakan gelombang ultrasonik. Pada rangkaian ini saya menggunakan komponen HC-SR04 yang dihubungkan ke ESP32 sebagai komponen yang mengeluarkan gelombang ultrasonik untuk mengetahui jarak benda,kemudian hasil dari pembacaan komponen ditampilkan pada layar oled._
 
-# Simulation Esp32
-Untuk melihat beberapa Project Simulasi dapat dilihat padaa branch :
-1. Simulation esp32 with DHT22,Led,Buzzer
-2. Simulation esp32 with HC-SR04 and Oled display
-3. Simulation esp32 with LED RGB controlled by blynk
+# How To Run
+Untuk dapat menjalan program tersebut,lakukan :
+1. Buka file wokwi-project.txt.
+2. Salin link https://wokwi.com/projects/400138857399743489.
+3. Buka browser lalu klik paste.
+4. Setelah muncul rangkaian ESP32 pada wokwi,klik "start the simulation".
+5. Atur jarak dengan klik komponen HC-SR04,lalu atur jarak sesuai keinginan.
+6. Hasil baca dari komponen HC-SR04 akan ditampilkan pada layar oled.
+7. jika hasil baca tidak sesuai,kemungkinan ada angka toleransi sebanyak -1.
